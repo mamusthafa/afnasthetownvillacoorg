@@ -1,0 +1,16 @@
+{
+  "name": "The Town Villa Coorg",
+  "short_name": "Town Villa",
+  "description": "Homestay in Madikeri, Coorg with four 2-bedroom villas near Omkareshwara Temple.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F5EF",
+  "theme_color": "#17352B",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}
