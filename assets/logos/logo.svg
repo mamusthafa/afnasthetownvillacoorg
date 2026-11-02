@@ -15,6 +15,6 @@
     <path d="M20 23 L30 15 L40 23" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" />
   </g>
   <!-- Text -->
-  <text x="82" y="37" font-family="'Playfair Display', Georgia, serif" font-size="22" font-weight="700" fill="#17352B" letter-spacing="1.2">THE TOWN VILLA</text>
-  <text x="84" y="57" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="600" fill="#BD9457" letter-spacing="3.5">MADIKERI • COORG</text>
+  <text x="82" y="37" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="700" fill="#17352B" letter-spacing="1.5">COORG VILLA</text>
+  <text x="84" y="57" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="600" fill="#BD9457" letter-spacing="3.5">MADIKERI • HOMESTAY</text>
 </svg>

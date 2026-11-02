@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-THE TOWN VILLA COORG - Complete Page Builder
+COORG VILLA - Complete Page Builder
 Generates all 19 HTML pages + sitemap.xml + robots.txt + manifest
 """
 
@@ -17,7 +17,7 @@ def build_homepage():
     <!-- SECTION 01: HERO BANNER -->
     <section class="hero-section">
       <div class="hero-background">
-        <img src="assets/images/bedrooms/town-villa-coorg-bedroom-spacious.jpg" alt="The Town Villa Coorg Bedroom Suite" fetchpriority="high">
+        <img src="assets/images/bedrooms/town-villa-coorg-bedroom-spacious.jpg" alt="Coorg Villa Bedroom Suite" fetchpriority="high">
       </div>
       <div class="hero-overlay"></div>
       <div class="container hero-content">
@@ -25,7 +25,7 @@ def build_homepage():
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
           Madikeri • Near Omkareshwara Temple
         </div>
-        <h1 class="hero-title">Homestay in Madikeri, Coorg – The Town Villa Coorg</h1>
+        <h1 class="hero-title">Homestay in Madikeri, Coorg – Coorg Villa</h1>
         <p class="hero-subtitle">
           Spacious 2-bedroom villas for families, groups and couples, conveniently located near Omkareshwara Temple in Madikeri.
         </p>
@@ -94,9 +94,9 @@ def build_homepage():
         <div class="grid-2" style="align-items: center; gap: 3.5rem;">
           <div>
             <span class="eyebrow">Madikeri Homestay</span>
-            <h2>Welcome to The Town Villa Coorg</h2>
+            <h2>Welcome to Coorg Villa</h2>
             <p style="margin-top: 1.25rem;">
-              Nestled right in the heart of Madikeri, The Town Villa Coorg provides the ideal blend of homely warmth, private villa convenience, and unbeatable location. Unlike cramped hotel rooms where families are split across corridors, each of our four distinct villas gives you the luxury of an entire home.
+              Nestled right in the heart of Madikeri, Coorg Villa provides the ideal blend of homely warmth, private villa convenience, and unbeatable location. Unlike cramped hotel rooms where families are split across corridors, each of our four distinct villas gives you the luxury of an entire home.
             </p>
             <p>
               With two spacious private bedrooms, an independent living hall, dining space, modern attached bathrooms, and secure parking, you can relax together after an exciting day touring Coorg's misty hills and fragrant coffee estates.
@@ -108,7 +108,7 @@ def build_homepage():
           </div>
           <div style="position: relative;">
             <div class="card-img-wrap" style="border-radius: var(--radius-lg); aspect-ratio: 4/3; box-shadow: var(--shadow-lg);">
-              <img src="assets/images/villas/town-villa-coorg-living-dining-layout.jpg" alt="The Town Villa Coorg Living & Dining Interior">
+              <img src="assets/images/villas/town-villa-coorg-living-dining-layout.jpg" alt="Coorg Villa Living & Dining Interior">
             </div>
             <div style="position: absolute; bottom: -1.5rem; right: -1rem; background: var(--color-surface); padding: 1.25rem 1.5rem; border-radius: var(--radius-md); box-shadow: var(--shadow-md); border-left: 4px solid var(--color-accent); max-width: 240px;">
               <strong style="color: var(--color-primary); display: block; font-size: 1.1rem; font-family: var(--font-heading);">Prime Landmark</strong>
@@ -265,7 +265,7 @@ def build_homepage():
           <span class="eyebrow">Local Sightseeing</span>
           <h2>Discover the Best of Madikeri, Coorg</h2>
           <p class="section-subtitle">
-            Staying at The Town Villa Coorg near Omkareshwara Temple means you are only minutes away from the town's most cherished historical landmarks and natural wonders.
+            Staying at Coorg Villa near Omkareshwara Temple means you are only minutes away from the town's most cherished historical landmarks and natural wonders.
           </p>
         </div>
 
@@ -350,7 +350,7 @@ def build_homepage():
       <div class="container">
         <div class="section-header">
           <span class="eyebrow">Real Property Photographs</span>
-          <h2>Take a Look Inside The Town Villa Coorg</h2>
+          <h2>Take a Look Inside Coorg Villa</h2>
           <p class="section-subtitle">
             Explore authentic, unedited photos of our bedrooms, living areas, dining spaces, and facilities in Madikeri.
           </p>
@@ -445,7 +445,7 @@ def build_homepage():
             <span class="eyebrow">Prime Central Location</span>
             <h2>Stay Near Omkareshwara Temple in Madikeri</h2>
             <p style="margin-top: 1rem;">
-              Location is everything when choosing accommodation in Coorg. Staying on the remote outskirts can mean spending hours navigating winding hill roads after dark. The Town Villa Coorg is situated conveniently near Omkareshwara Temple in central Madikeri.
+              Location is everything when choosing accommodation in Coorg. Staying on the remote outskirts can mean spending hours navigating winding hill roads after dark. Coorg Villa is situated conveniently near Omkareshwara Temple in central Madikeri.
             </p>
             <p>
               You enjoy instant walking and driving access to the town's vibrant restaurants, authentic Kodava spice shops, coffee stores, and heritage viewpoints, all while relaxing in a quiet, residential villa enclave.
@@ -521,7 +521,7 @@ def build_homepage():
           <span class="eyebrow">Plan Your Stay in Coorg</span>
           <h2>Planning Your Stay in Madikeri?</h2>
           <p class="section-subtitle">
-            Check availability for your preferred dates and contact The Town Villa Coorg directly for instant confirmation and the best tariff.
+            Check availability for your preferred dates and contact Coorg Villa directly for instant confirmation and the best tariff.
           </p>
         </div>
 
@@ -532,8 +532,8 @@ def build_homepage():
     {render_lightbox_modal()}
     """
     return render_page(
-        title="Homestay in Madikeri, Coorg | The Town Villa Coorg",
-        description="Book a comfortable stay at The Town Villa Coorg in Madikeri. Explore our 2-bedroom villas for families, groups and couples near Omkareshwara Temple.",
+        title="Homestay in Madikeri, Coorg | Coorg Villa",
+        description="Book a comfortable stay at Coorg Villa in Madikeri. Explore our 2-bedroom villas for families, groups and couples near Omkareshwara Temple.",
         canonical_slug="",
         body_content=body,
         active_tab="HOME",
@@ -557,13 +557,13 @@ def build_villas_page():
       <div class="container">
         <div class="grid-2" style="align-items: center; gap: 3.5rem; margin-bottom: 4rem;">
           <div class="card-img-wrap" style="border-radius: var(--radius-lg); aspect-ratio: 4/3; box-shadow: var(--shadow-lg);">
-            <img src="assets/images/villas/town-villa-coorg-bedroom-suite.jpg" alt="Master Bedroom in The Town Villa Coorg">
+            <img src="assets/images/villas/town-villa-coorg-bedroom-suite.jpg" alt="Master Bedroom in Coorg Villa">
           </div>
           <div>
             <span class="badge badge-gold" style="margin-bottom: 0.75rem;">Independent Villa Unit</span>
             <h2>Spacious 2-Bedroom Layout (4 Villas Available)</h2>
             <p style="margin-top: 1rem;">
-              The Town Villa Coorg features four independent 2-bedroom villas. Each villa is a complete, self-contained home designed to offer comfort and togetherness for families, friends, and couples travelling to Kodagu.
+              Coorg Villa features four independent 2-bedroom villas. Each villa is a complete, self-contained home designed to offer comfort and togetherness for families, friends, and couples travelling to Kodagu.
             </p>
             <p>
               Unlike conventional hotels where groups are split across isolated hotel rooms, our villas allow everyone to gather comfortably in a private living hall and share meals at the dining table while retaining the privacy of separate bedrooms.
@@ -595,7 +595,7 @@ def build_villas_page():
           <span class="eyebrow">Room By Room</span>
           <h2>Inside Each 2-Bedroom Villa</h2>
           <p class="section-subtitle">
-            Explore the layout and components that make The Town Villa Coorg one of the most practical accommodation choices in Madikeri.
+            Explore the layout and components that make Coorg Villa one of the most practical accommodation choices in Madikeri.
           </p>
         </div>
 
@@ -663,7 +663,7 @@ def build_villas_page():
     </section>
     """
     return render_page(
-        title="2-Bedroom Villas in Madikeri, Coorg | The Town Villa",
+        title="2-Bedroom Villas in Madikeri, Coorg | Coorg Villa",
         description="Discover spacious 2-bedroom villas in Madikeri with Wi-Fi, living and dining areas, hot water and parking. Enquire about your stay.",
         canonical_slug="villas.html",
         body_content=body,
@@ -676,7 +676,7 @@ def build_amenities_page():
     <div style="background-color: var(--color-primary-dark); color: #FFFFFF; padding: 4rem 0 3rem 0; text-align: center;">
       <div class="container">
         <span class="eyebrow" style="color: var(--color-accent-light);">Homestay Facilities</span>
-        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Facilities at The Town Villa Coorg</h1>
+        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Facilities at Coorg Villa</h1>
         <p style="max-width: 680px; margin: 1rem auto 0 auto; color: rgba(255,255,255,0.85); font-size: 1.1rem;">
           Detailed descriptions of the verified amenities and comforts provided across all 4 of our Madikeri villas.
         </p>
@@ -722,8 +722,8 @@ def build_amenities_page():
     </section>
     """
     return render_page(
-        title="Facilities at The Town Villa Coorg | Madikeri Homestay Amenities",
-        description="Explore the verified amenities at The Town Villa Coorg including 2 bedrooms per villa, private living hall, Wi-Fi, refrigerator, power backup, and hot water.",
+        title="Facilities at Coorg Villa | Madikeri Homestay Amenities",
+        description="Explore the verified amenities at Coorg Villa including 2 bedrooms per villa, private living hall, Wi-Fi, refrigerator, power backup, and hot water.",
         canonical_slug="amenities.html",
         body_content=body,
         active_tab="AMENITIES",
@@ -775,7 +775,7 @@ def build_gallery_page():
     <div style="background-color: var(--color-primary-dark); color: #FFFFFF; padding: 4rem 0 3rem 0; text-align: center;">
       <div class="container">
         <span class="eyebrow" style="color: var(--color-accent-light);">Authentic Visuals</span>
-        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Photos of The Town Villa Coorg</h1>
+        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Photos of Coorg Villa</h1>
         <p style="max-width: 680px; margin: 1rem auto 0 auto; color: rgba(255,255,255,0.85); font-size: 1.1rem;">
           Explore real, unedited photographs of our 2-bedroom villas, living areas, dining spaces, and facilities in Madikeri.
         </p>
@@ -805,8 +805,8 @@ def build_gallery_page():
     {render_lightbox_modal()}
     """
     return render_page(
-        title="The Town Villa Coorg Photos | Madikeri Homestay Gallery",
-        description="Explore photos of The Town Villa Coorg, including bedrooms, living areas and facilities at our Madikeri homestay.",
+        title="Coorg Villa Photos | Madikeri Homestay Gallery",
+        description="Explore photos of Coorg Villa, including bedrooms, living areas and facilities at our Madikeri homestay.",
         canonical_slug="gallery.html",
         body_content=body,
         active_tab="GALLERY",
@@ -830,12 +830,12 @@ def build_family_stay_page():
         <div class="grid-2" style="align-items: center; gap: 3.5rem; margin-bottom: 4rem;">
           <div>
             <span class="eyebrow">Family Comfort</span>
-            <h2>Why Families Choose The Town Villa Coorg</h2>
+            <h2>Why Families Choose Coorg Villa</h2>
             <p style="margin-top: 1rem;">
               Travelling with family—especially with toddlers, children, or elderly parents—requires much more than just a place to sleep. Staying in isolated hotel rooms often means having to call across rooms, having no common space to relax together, and eating food awkwardly on bed edges.
             </p>
             <p>
-              At The Town Villa Coorg, each of our four 2-bedroom villas provides the comfort and functionality of a private vacation home:
+              At Coorg Villa, each of our four 2-bedroom villas provides the comfort and functionality of a private vacation home:
             </p>
             <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem; margin: 1.5rem 0;">
               <li style="display: flex; gap: 0.75rem;">
@@ -858,7 +858,7 @@ def build_family_stay_page():
             <a href="#booking-enquiry" class="btn btn-primary">Make a Family Booking Enquiry &rarr;</a>
           </div>
           <div class="card-img-wrap" style="border-radius: var(--radius-lg); aspect-ratio: 4/3; box-shadow: var(--shadow-lg);">
-            <img src="assets/images/living-room/town-villa-coorg-living-room-wood.jpg" alt="Family Sitting Area in The Town Villa Coorg">
+            <img src="assets/images/living-room/town-villa-coorg-living-room-wood.jpg" alt="Family Sitting Area in Coorg Villa">
           </div>
         </div>
 
@@ -869,7 +869,7 @@ def build_family_stay_page():
     </section>
     """
     return render_page(
-        title="Family Homestay in Madikeri, Coorg | Town Villa",
+        title="Family Homestay in Madikeri, Coorg | Coorg Villa",
         description="Plan a family stay in Madikeri with spacious 2-bedroom villa accommodation for 6–8 guests per villa. Contact us to check availability.",
         canonical_slug="family-stay-madikeri.html",
         body_content=body,
@@ -899,7 +899,7 @@ def build_group_stay_page():
               Organizing accommodation for college friends reunions, extended family gatherings, trekking clubs, or corporate team offsites in Coorg can be tricky. Standard hotels scatter group members across different floors, while isolated cottages often lack vehicle parking and town access.
             </p>
             <p>
-              The Town Villa Coorg solves this with an ideal architectural setup:
+              Coorg Villa solves this with an ideal architectural setup:
             </p>
             <div style="display: flex; flex-direction: column; gap: 1rem; margin: 1.5rem 0;">
               <div style="background: var(--color-surface); padding: 1.25rem; border-radius: var(--radius-md); border-left: 4px solid var(--color-accent); border: 1px solid var(--color-border);">
@@ -929,7 +929,7 @@ def build_group_stay_page():
     </section>
     """
     return render_page(
-        title="Group Accommodation in Madikeri, Coorg | The Town Villa (Up to 32)",
+        title="Group Accommodation in Madikeri, Coorg | Coorg Villa (Up to 32)",
         description="Book group stays in Madikeri, Coorg for 12, 16, 24 up to 32 guests across 4 spacious 2-bedroom villas with private living halls and on-site parking.",
         canonical_slug="group-stay-madikeri.html",
         body_content=body,
@@ -956,7 +956,7 @@ def build_couple_stay_page():
             <span class="eyebrow">Tranquil Atmosphere</span>
             <h2>Serene & Private Couple Retreat</h2>
             <p style="margin-top: 1rem;">
-              Coorg is renowned as the "Scotland of India" for its romantic misty mountains, pleasant cool climate, and picturesque coffee plantations. If you are planning a weekend couple getaway or anniversary retreat, The Town Villa Coorg offers a tranquil boutique sanctuary right in town.
+              Coorg is renowned as the "Scotland of India" for its romantic misty mountains, pleasant cool climate, and picturesque coffee plantations. If you are planning a weekend couple getaway or anniversary retreat, Coorg Villa offers a tranquil boutique sanctuary right in town.
             </p>
             <p>
               Wake up to cool hill breezes, sip fresh Kodagu filter coffee, take a gentle morning walk around Omkareshwara Temple's tranquil waters, and catch magical golden hour sunsets at Raja's Seat just 5 minutes away.
@@ -989,7 +989,7 @@ def build_couple_stay_page():
     </section>
     """
     return render_page(
-        title="Comfortable Homestay for Couples in Madikeri | Town Villa Coorg",
+        title="Comfortable Homestay for Couples in Madikeri | Coorg Villa",
         description="Looking for a peaceful couple stay in Madikeri, Coorg? Enjoy private villa accommodation with Wi-Fi, hot water, and easy access to Raja's Seat sunset viewpoint.",
         canonical_slug="couple-stay-madikeri.html",
         body_content=body,
@@ -1002,7 +1002,7 @@ def build_places_page():
     <div style="background-color: var(--color-primary-dark); color: #FFFFFF; padding: 4rem 0 3rem 0; text-align: center;">
       <div class="container">
         <span class="eyebrow" style="color: var(--color-accent-light);">Madikeri Sightseeing Guide</span>
-        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Places to Visit Near The Town Villa Coorg</h1>
+        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Places to Visit Near Coorg Villa</h1>
         <p style="max-width: 680px; margin: 1rem auto 0 auto; color: rgba(255,255,255,0.85); font-size: 1.1rem;">
           Explore the top tourist attractions, historical landmarks, waterfalls, and viewpoints easily accessible from our central homestay.
         </p>
@@ -1118,8 +1118,8 @@ def build_places_page():
     </section>
     """
     return render_page(
-        title="Places to Visit Near The Town Villa Coorg | Madikeri Sightseeing",
-        description="Discover the best places to visit in Madikeri near The Town Villa Coorg: Omkareshwara Temple, Raja's Seat, Abbey Falls, Madikeri Fort, and Raja's Tomb.",
+        title="Places to Visit Near Coorg Villa | Madikeri Sightseeing",
+        description="Discover the best places to visit in Madikeri near Coorg Villa: Omkareshwara Temple, Raja's Seat, Abbey Falls, Madikeri Fort, and Raja's Tomb.",
         canonical_slug="places-to-visit-madikeri.html",
         body_content=body,
         active_tab="PLACES",
@@ -1143,9 +1143,9 @@ def build_location_page():
         <div class="grid-2" style="gap: 3.5rem; align-items: flex-start; margin-bottom: 4rem;">
           <div>
             <span class="eyebrow">Central Advantage</span>
-            <h2>How to Reach The Town Villa Coorg</h2>
+            <h2>How to Reach Coorg Villa</h2>
             <p style="margin-top: 1rem;">
-              The Town Villa Coorg is located in Madikeri, the headquarters and central hub of the Kodagu (Coorg) district. Our proximity to Omkareshwara Temple makes arriving and checking in straightforward.
+              Coorg Villa is located in Madikeri, the headquarters and central hub of the Kodagu (Coorg) district. Our proximity to Omkareshwara Temple makes arriving and checking in straightforward.
             </p>
             
             <h4 style="margin-top: 1.75rem; color: var(--color-primary);">Road Routes from Major Hubs:</h4>
@@ -1204,8 +1204,8 @@ def build_location_page():
     </section>
     """
     return render_page(
-        title="Stay Near Omkareshwara Temple, Madikeri | Town Villa",
-        description="Looking for accommodation near Omkareshwara Temple in Madikeri? Explore the location of The Town Villa Coorg and enquire about availability.",
+        title="Stay Near Omkareshwara Temple, Madikeri | Coorg Villa",
+        description="Looking for accommodation near Omkareshwara Temple in Madikeri? Explore the location of Coorg Villa and enquire about availability.",
         canonical_slug="location.html",
         body_content=body,
         active_tab="LOCATION",
@@ -1217,7 +1217,7 @@ def build_about_page():
     <div style="background-color: var(--color-primary-dark); color: #FFFFFF; padding: 4rem 0 3rem 0; text-align: center;">
       <div class="container">
         <span class="eyebrow" style="color: var(--color-accent-light);">Hospitality & Comfort</span>
-        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">About The Town Villa Coorg</h1>
+        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">About Coorg Villa</h1>
         <p style="max-width: 680px; margin: 1rem auto 0 auto; color: rgba(255,255,255,0.85); font-size: 1.1rem;">
           Our homestay in Madikeri offers genuine Kodagu warmth, spacious 2-bedroom villas, and prime central convenience.
         </p>
@@ -1231,7 +1231,7 @@ def build_about_page():
             <span class="eyebrow">Our Story</span>
             <h2>A True Home Away from Home in Madikeri</h2>
             <p style="margin-top: 1rem;">
-              The Town Villa Coorg was conceived to offer travellers to Kodagu an authentic, spacious alternative to sterile commercial hotels. Located just moments from the historic Omkareshwara Temple, our property provides four independent 2-bedroom villas that give families, groups, and couples the freedom to live and relax together in total privacy.
+              Coorg Villa was conceived to offer travellers to Kodagu an authentic, spacious alternative to sterile commercial hotels. Located just moments from the historic Omkareshwara Temple, our property provides four independent 2-bedroom villas that give families, groups, and couples the freedom to live and relax together in total privacy.
             </p>
             <p>
               We believe great homestay hospitality lies in the details: clean and comfortable beds, continuous hot water for refreshing showers, dedicated power backup so you are never left in the dark, reliable Wi-Fi, and courteous host support to help you discover the finest local spots in Madikeri.
@@ -1242,7 +1242,7 @@ def build_about_page():
             </div>
           </div>
           <div class="card-img-wrap" style="border-radius: var(--radius-lg); aspect-ratio: 4/3; box-shadow: var(--shadow-lg);">
-            <img src="assets/images/villas/town-villa-coorg-entrance-hallway.jpg" alt="The Town Villa Coorg Corridor & Entrance">
+            <img src="assets/images/villas/town-villa-coorg-entrance-hallway.jpg" alt="Coorg Villa Corridor & Entrance">
           </div>
         </div>
 
@@ -1286,8 +1286,8 @@ def build_about_page():
     </section>
     """
     return render_page(
-        title="About The Town Villa Coorg – Our Homestay in Madikeri",
-        description="Learn about The Town Villa Coorg, our 4 spacious 2-bedroom villas, prime location near Omkareshwara Temple in Madikeri, and genuine Kodagu hospitality.",
+        title="About Coorg Villa – Our Homestay in Madikeri",
+        description="Learn about Coorg Villa, our 4 spacious 2-bedroom villas, prime location near Omkareshwara Temple in Madikeri, and genuine Kodagu hospitality.",
         canonical_slug="about.html",
         body_content=body,
         active_tab="ABOUT",
@@ -1299,7 +1299,7 @@ def build_contact_page():
     <div style="background-color: var(--color-primary-dark); color: #FFFFFF; padding: 4rem 0 3rem 0; text-align: center;">
       <div class="container">
         <span class="eyebrow" style="color: var(--color-accent-light);">Reach Out Directly</span>
-        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Contact The Town Villa Coorg</h1>
+        <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Contact Coorg Villa</h1>
         <p style="max-width: 680px; margin: 1rem auto 0 auto; color: rgba(255,255,255,0.85); font-size: 1.1rem;">
           Call or WhatsApp our host team directly on {PHONE_RAW} for villa availability, special group rates, and directions.
         </p>
@@ -1362,8 +1362,8 @@ def build_contact_page():
     </section>
     """
     return render_page(
-        title="Contact The Town Villa Coorg | Madikeri Stay Booking",
-        description="Call or WhatsApp The Town Villa Coorg on 8277268934 for villa availability and booking enquiries in Madikeri, Coorg.",
+        title="Contact Coorg Villa | Madikeri Stay Booking",
+        description="Call or WhatsApp Coorg Villa on 8277268934 for villa availability and booking enquiries in Madikeri, Coorg.",
         canonical_slug="contact.html",
         body_content=body,
         active_tab="CONTACT",
@@ -1394,7 +1394,7 @@ def build_faq_page():
     """
     return render_page(
         title="Frequently Asked Questions About Our Madikeri Homestay | FAQ",
-        description="Find answers to common questions about staying at The Town Villa Coorg in Madikeri, including villa capacity, check-in, parking, and amenities.",
+        description="Find answers to common questions about staying at Coorg Villa in Madikeri, including villa capacity, check-in, parking, and amenities.",
         canonical_slug="faq.html",
         body_content=body,
         active_tab="FAQ",
@@ -1408,7 +1408,7 @@ def build_privacy_policy_page():
         <span class="eyebrow" style="color: var(--color-accent-light);">Transparency & Trust</span>
         <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Privacy Policy & House Rules</h1>
         <p style="max-width: 680px; margin: 1rem auto 0 auto; color: rgba(255,255,255,0.85); font-size: 1.1rem;">
-          Our guest privacy commitment and essential guidelines for a peaceful stay at The Town Villa Coorg.
+          Our guest privacy commitment and essential guidelines for a peaceful stay at Coorg Villa.
         </p>
       </div>
     </div>
@@ -1418,7 +1418,7 @@ def build_privacy_policy_page():
         <div style="background: var(--color-surface); padding: clamp(1.5rem, 4vw, 3rem); border-radius: var(--radius-lg); border: 1px solid var(--color-border); box-shadow: var(--shadow-sm);">
           <h2>Guest Privacy Policy</h2>
           <p style="margin-top: 1rem; color: var(--color-text-muted);">
-            At The Town Villa Coorg, we respect your privacy. Any personal information collected during enquiry or booking—including guest names, contact numbers, email addresses, and identification documents—is utilized strictly for confirming reservations, complying with local hospitality registration laws, and communicating with you regarding your stay. We do not sell or share personal data with external marketing third parties.
+            At Coorg Villa, we respect your privacy. Any personal information collected during enquiry or booking—including guest names, contact numbers, email addresses, and identification documents—is utilized strictly for confirming reservations, complying with local hospitality registration laws, and communicating with you regarding your stay. We do not sell or share personal data with external marketing third parties.
           </p>
 
           <h3 style="margin-top: 2rem;">Booking & Confirmation Terms</h3>
@@ -1430,7 +1430,7 @@ def build_privacy_policy_page():
 
           <h3 style="margin-top: 2rem;">Property House Rules</h3>
           <ul style="margin: 1rem 0 1.5rem 1.25rem; color: var(--color-text-muted); line-height: 1.7;">
-            <li><strong>Residential Peace:</strong> The Town Villa Coorg is situated in a quiet residential neighborhood near Omkareshwara Temple. We kindly request guests to observe quiet hours after 10:00 PM to respect neighboring residents and other staying families.</li>
+            <li><strong>Residential Peace:</strong> Coorg Villa is situated in a quiet residential neighborhood near Omkareshwara Temple. We kindly request guests to observe quiet hours after 10:00 PM to respect neighboring residents and other staying families.</li>
             <li><strong>No Smoking Indoors:</strong> Smoking is strictly prohibited inside the bedrooms, living halls, and bathrooms. Dedicated outdoor smoking zones are provided.</li>
             <li><strong>Care for Villa Property:</strong> Guests are requested to treat the villa fixtures, electronics, furniture, and linens with care. Any intentional damage or missing items will be charged to the guest.</li>
             <li><strong>Vehicle Parking:</strong> On-premises parking is provided for guest convenience. Vehicles are parked at owner's discretion.</li>
@@ -1444,8 +1444,8 @@ def build_privacy_policy_page():
     </section>
     """
     return render_page(
-        title="Privacy Policy & House Rules | The Town Villa Coorg",
-        description="Read the guest privacy policy, booking terms, and house rules for staying at The Town Villa Coorg in Madikeri.",
+        title="Privacy Policy & House Rules | Coorg Villa",
+        description="Read the guest privacy policy, booking terms, and house rules for staying at Coorg Villa in Madikeri.",
         canonical_slug="privacy-policy.html",
         body_content=body,
         active_tab="",
@@ -1488,7 +1488,7 @@ def build_attraction_page(slug, title, heading, badge, image, desc, details_html
     </section>
     """
     return render_page(
-        title=f"{title} | The Town Villa Coorg Guide",
+        title=f"{title} | Coorg Villa Guide",
         description=desc,
         canonical_slug=f"attractions/{slug}.html",
         body_content=body,
@@ -1531,7 +1531,7 @@ def build_blog_index_page():
         <span class="eyebrow" style="color: var(--color-accent-light);">Coorg Travel Blog</span>
         <h1 style="color: #FFFFFF; margin-top: 0.5rem;">Coorg Travel Guides & Itineraries</h1>
         <p style="max-width: 680px; margin: 1rem auto 0 auto; color: rgba(255,255,255,0.85); font-size: 1.1rem;">
-          Helpful travel insights, itineraries, and accommodation advice from the local hosts of The Town Villa Coorg.
+          Helpful travel insights, itineraries, and accommodation advice from the local hosts of Coorg Villa.
         </p>
       </div>
     </div>
@@ -1549,7 +1549,7 @@ def build_blog_index_page():
     </section>
     """
     return render_page(
-        title="Coorg Travel Guides & Madikeri Itineraries | Town Villa Blog",
+        title="Coorg Travel Guides & Madikeri Itineraries | Coorg Villa Blog",
         description="Read useful travel guides, 2-day Madikeri itineraries, family stay advice, and local sightseeing tips for planning your Coorg holiday.",
         canonical_slug="blog/index.html",
         body_content=body,
@@ -1575,8 +1575,8 @@ def build_404_page():
     </div>
     """
     return render_page(
-        title="Page Not Found (404) | The Town Villa Coorg",
-        description="The page you are looking for cannot be found. Return to The Town Villa Coorg homepage.",
+        title="Page Not Found (404) | Coorg Villa",
+        description="The page you are looking for cannot be found. Return to Coorg Villa homepage.",
         canonical_slug="404.html",
         body_content=body,
         active_tab="",
@@ -1629,8 +1629,8 @@ Sitemap: {SITE_URL}/sitemap.xml
 
 def build_webmanifest():
     manifest = {
-        "name": "The Town Villa Coorg",
-        "short_name": "Town Villa",
+        "name": "Coorg Villa",
+        "short_name": "Coorg Villa",
         "description": "Homestay in Madikeri, Coorg with four 2-bedroom villas near Omkareshwara Temple.",
         "start_url": "/",
         "display": "standalone",
@@ -1647,7 +1647,7 @@ def build_webmanifest():
     return json.dumps(manifest, indent=2)
 
 def main():
-    print("Building all pages for The Town Villa Coorg...")
+    print("Building all pages for Coorg Villa...")
 
     # Top-level pages
     with open("index.html", "w", encoding="utf-8") as f:
@@ -1709,34 +1709,34 @@ def main():
     # Attractions
     attractions = [
         ("omkareshwara-temple", "Omkareshwara Temple Madikeri", "Omkareshwara Temple Madikeri – Historic Shiva Shrine",
-         "Near The Town Villa", "omkareshwara-temple.jpg",
+         "Near Coorg Villa", "omkareshwara-temple.jpg",
          "Built in 1820 by King Lingarajendra II, Omkareshwara Temple is famous for its unique Gothic and Islamic dome architecture, peaceful holy water pond, and sacred linga.",
          """<p style="margin-top: 1rem;">Constructed in the early 19th century, Omkareshwara Temple is one of Madikeri's most revered spiritual landmarks. Uniquely combining Gothic and Islamic architectural elements, the temple resembles a peaceful dargah with a central dome and four corner minarets.</p>
-            <p>At the center lies a scenic water pond housing freshwater fish where devotees can spend peaceful moments. Located just steps away from The Town Villa Coorg, morning and evening temple visits are effortless for our staying guests.</p>"""),
+            <p>At the center lies a scenic water pond housing freshwater fish where devotees can spend peaceful moments. Located just steps away from Coorg Villa, morning and evening temple visits are effortless for our staying guests.</p>"""),
 
         ("rajas-seat", "Raja's Seat Madikeri", "Raja's Seat Madikeri – Royal Sunset Viewpoint",
          "Panoramic Valley View", "rajas-seat.jpg",
          "The royal hilltop terrace where Kodagu kings enjoyed misty valley views and sunsets. Features manicured flower gardens, musical fountains, and panoramic vistas.",
          """<p style="margin-top: 1rem;">Raja's Seat (Seat of the Kings) was the favored scenic retreat of the Kodagu royalty. Overlooking rolling misty valleys and layered green hills, this viewpoint provides breathtaking sunset vistas.</p>
-            <p>In the evenings, a musical fountain and seasonal floral displays attract visitors from across the country. Situated merely 1.8 km from The Town Villa Coorg, you can easily catch the golden hour without worrying about night driving.</p>"""),
+            <p>In the evenings, a musical fountain and seasonal floral displays attract visitors from across the country. Situated merely 1.8 km from Coorg Villa, you can easily catch the golden hour without worrying about night driving.</p>"""),
 
         ("madikeri-fort", "Madikeri Fort & Palace", "Madikeri Fort – Historic 17th-Century Heritage",
          "Kodagu Heritage", "madikeri-fort.jpg",
          "Originally constructed by Mudduraja and rebuilt in stone by Tipu Sultan, this ancient fort stands proudly in central Madikeri, housing a museum and colonial landmarks.",
          """<p style="margin-top: 1rem;">Madikeri Fort offers a journey through Coorg's storied history. Rebuilt with stone walls and battlements by Tipu Sultan, the fort premises feature two imposing life-sized stone elephants, an Anglican church turned archaeological museum, and panoramic views of Madikeri town.</p>
-            <p>It is located only 1.2 km from The Town Villa Coorg, making it an easy 4-minute drive or pleasant daytime walk.</p>"""),
+            <p>It is located only 1.2 km from Coorg Villa, making it an easy 4-minute drive or pleasant daytime walk.</p>"""),
 
         ("abbey-falls", "Abbey Falls Madikeri", "Abbey Falls – Spectacular Waterfall Amidst Coffee Plantations",
          "Lush Greenery", "abbey-falls.jpg",
          "A breathtaking 70-foot waterfall cascading over boulders amidst lush coffee estates and fragrant spice plantations in Madikeri.",
          """<p style="margin-top: 1rem;">Abbey Falls (Abbi Falls) is one of Coorg's most popular natural attractions. Nestled in private coffee and spice plantations, the water cascades down roughly 70 feet into a rocky gorge.</p>
-            <p>Visitors walk along a scenic paved pathway surrounded by tall trees and pepper vines to reach the hanging viewing bridge. Located approximately 8.5 km from central Madikeri, it makes an ideal morning excursion from The Town Villa Coorg.</p>"""),
+            <p>Visitors walk along a scenic paved pathway surrounded by tall trees and pepper vines to reach the hanging viewing bridge. Located approximately 8.5 km from central Madikeri, it makes an ideal morning excursion from Coorg Villa.</p>"""),
 
         ("rajas-tomb", "Raja's Tomb (Gaddige)", "Raja's Tomb (Gaddige) – Royal Tombs of Kodagu",
          "Historic Monument", "rajas-tomb.jpg",
          "Gaddige houses the Indo-Saracenic domed royal tombs of King Doddaveerarajendra and Lingarajendra with intricate brass carvings and hillside panoramas.",
          """<p style="margin-top: 1rem;">Raja's Tomb, locally called Gaddige, features three striking Muhammadan-style domed structures with minarets honoring Kodagu rulers. The central tomb belongs to King Doddaveerarajendra and his queen, while the right tomb honors Lingarajendra.</p>
-            <p>Situated on an elevated ridge about 2.5 km from The Town Villa Coorg, Gaddige offers quiet heritage surroundings and picturesque views of Madikeri's gentle hills.</p>""")
+            <p>Situated on an elevated ridge about 2.5 km from Coorg Villa, Gaddige offers quiet heritage surroundings and picturesque views of Madikeri's gentle hills.</p>""")
     ]
 
     for slug, title, heading, badge, image, desc, details in attractions:

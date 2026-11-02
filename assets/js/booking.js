@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return dateStr;
       };
 
-      let text = `Hello The Town Villa Coorg,\n`;
+      let text = `Hello Coorg Villa,\n`;
       text += `I would like to enquire about villa booking availability in Madikeri:\n\n`;
       text += `• Guest Name: ${name || 'Prospective Guest'}\n`;
       text += `• Check-in: ${formatDate(checkin)}\n`;

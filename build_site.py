@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-THE TOWN VILLA COORG - Complete Website Static Generator
+COORG VILLA - Complete Website Static Generator
 Generates all 19 HTML pages, sitemap.xml, robots.txt, webmanifest, and 404 page.
 """
 
@@ -103,7 +103,7 @@ def render_page(title, description, canonical_slug, body_content, active_tab="",
 base_business_schema = {
   "@context": "https://schema.org",
   "@type": "BedAndBreakfast",
-  "name": "The Town Villa Coorg",
+  "name": "Coorg Villa",
   "image": [
     f"{SITE_URL}/assets/images/villas/town-villa-coorg-bedroom-suite.jpg",
     f"{SITE_URL}/assets/images/villas/town-villa-coorg-living-dining-layout.jpg"
@@ -252,7 +252,7 @@ def render_lightbox_modal():
       <button class="lightbox-prev" aria-label="Previous Photo">&#10094;</button>
       <button class="lightbox-next" aria-label="Next Photo">&#10095;</button>
       <div class="lightbox-content">
-        <img class="lightbox-img" src="" alt="The Town Villa Coorg Full Photo">
+        <img class="lightbox-img" src="" alt="Coorg Villa Full Photo">
         <div class="lightbox-caption-bar">
           <p class="lightbox-caption-text" style="font-weight: 600; margin-bottom: 0.2rem;"></p>
           <span class="lightbox-counter" style="font-size: 0.85rem; opacity: 0.75;"></span>
@@ -294,8 +294,8 @@ def render_amenities_grid():
 
 def render_faq_accordions():
     faqs = [
-        ("Where is The Town Villa Coorg located in Madikeri?",
-         "The Town Villa Coorg is situated in central Madikeri, conveniently close to the famous Omkareshwara Temple. This prime location places you within walking distance or a short 5-minute drive to Madikeri Fort, Raja's Seat, the local market, and prominent dining establishments."),
+        ("Where is Coorg Villa located in Madikeri?",
+         "Coorg Villa is situated in central Madikeri, conveniently close to the famous Omkareshwara Temple. This prime location places you within walking distance or a short 5-minute drive to Madikeri Fort, Raja's Seat, the local market, and prominent dining establishments."),
         ("How many guests can stay in each villa?",
          "Each villa features 2 spacious private bedrooms, a private living hall, a dining area, and attached bathrooms. It comfortably accommodates 6 guests, and up to 8 guests with optional extra beds. With 4 total villas, our property can host large groups and families of 24 to 32 guests."),
         ("What amenities are included with each villa?",
